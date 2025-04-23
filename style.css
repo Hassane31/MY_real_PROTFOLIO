@@ -21,20 +21,20 @@ header{
 }
 .logo{
     text-decoration: none;
-    color: blue;
+    color: brown;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
 }
 .navigation a{
-    color: blue;
+    color: brown;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
 padding-left: 30px;
 }
 .navigation a:hover{
-    color: brown;
+    color: rgb(0, 0, 0);
 }
 section {
     padding: 100px 200px;
@@ -47,4 +47,35 @@ section {
     background: url("MYpic.png") no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.main h2 span {
+    display:  inline-block; /*span was inling */
+    margin-top: 10px;
+    color: brown;
+    font-size: 3em;
+    font-weight: 700;
+}
+.main h3 {
+    color: rgb(78, 35, 35);
+    font-size: 1.6em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.mainbuttun{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(109, 57, 57);
+    font-size: 1,1em;
+    font-weight: 600;
+    display: inline-block;/*trensfer to inling block */
+    padding:  0.937 em 2.1875em;/*for view port 1em = 16 px*/
+    margin-bottom: 40px;
+
 }
