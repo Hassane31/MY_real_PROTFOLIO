@@ -36,3 +36,15 @@ padding-left: 30px;
 .navigation a:hover{
     color: brown;
 }
+section {
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("MYpic.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
