@@ -44,7 +44,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("MYpic.png") no-repeat;
+    background: url("background_0000.png") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -76,6 +76,18 @@ section {
     font-weight: 600;
     display: inline-block;/*trensfer to inling block */
     padding:  0.937 em 2.1875em;/*for view port 1em = 16 px*/
+    letter-spacing: 1px;
+    border-radius:  15px;
     margin-bottom: 40px;
+    padding: 10px;
+   
+
 
 }
+
+.mainbuttun :hover{
+        background-color: blue;
+        }
+
+   
+    
