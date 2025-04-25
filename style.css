@@ -57,7 +57,7 @@ section {
 .main h2 span {
     display:  inline-block; /*span was inling */
     margin-top: 10px;
-    color: rgb(42, 42, 165);
+    color: blue;
     font-size: 3em;
     font-weight: 700;
 }
@@ -94,6 +94,89 @@ section {
     color: white;
     font-size: 3em;
     padding-right: 30px;
+    
+   }
+   
+
+   .title{
+    display: flex;
+    justify-content: center;/**/
+    color: blue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30ox;
+   
+}
+   .contant {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
    }
+   .card{
+    background-color: white;
+    width: 21em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+   }
+   .card:hover{
+    transform: scale(1.1);
+   }
+
+   .icon {
+    color: blue;
+    font-size: 8em;
+    text-align: center;
+
+   }
+   .info{
+    text-align: center;
+   }
     
+   .info h3{
+    color: blue;
+    font-weight: 700;
+    margin: 10px;
+   }
+.Projects {
+    background-color: rgb(0, 0, 41);
+}
+
+.Projects .contant{
+    margin-top: 30px;
+
+}
+.projectCards{
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 1s ease;}
+
+    .projectCards:hover{
+        transform: scale(1.1);
+    }
+
+    .projectIMG img{
+        width: 100%;
+    }
+    .projectINFO{
+        padding: 1em;
+    }
+   .projectCatigori{
+    font-size: 1.5em;
+   }
+   .projecttitel{
+    font-weight: 1200;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2em;
+    
+   }
+   
