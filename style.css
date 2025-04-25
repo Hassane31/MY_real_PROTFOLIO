@@ -10,7 +10,7 @@
 }
 
 header{
-    background-color:rgb(224, 233, 218);
+    background-color:rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     z-index: 999; 
@@ -44,25 +44,25 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("background_0000.png") no-repeat;
+    background: url("BackGraound.png") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 .main h2{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1.5em;
     font-weight: 500;
 }
 .main h2 span {
     display:  inline-block; /*span was inling */
     margin-top: 10px;
-    color: brown;
+    color: rgb(42, 42, 165);
     font-size: 3em;
     font-weight: 700;
 }
 .main h3 {
-    color: rgb(78, 35, 35);
+    color: rgb(238, 238, 238);
     font-size: 1.6em;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -71,23 +71,29 @@ section {
 .mainbuttun{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color: rgb(109, 57, 57);
+    background-color: rgb(56, 42, 165);
     font-size: 1,1em;
     font-weight: 600;
     display: inline-block;/*trensfer to inling block */
-    padding:  0.937 em 2.1875em;/*for view port 1em = 16 px*/
+    padding:  0.937em 2.1875em;/*for view port 1em = 16 px*/
     letter-spacing: 1px;
     border-radius:  15px;
     margin-bottom: 40px;
-    padding: 10px;
+    transition: 0.7s ease;
    
 
 
 }
 
-.mainbuttun :hover{
+.mainbuttun:hover{
         background-color: blue;
+        transform: scale(1.1);
         }
 
-   
+   .icons a{
+    color: white;
+    font-size: 3em;
+    padding-right: 30px;
+
+   }
     
