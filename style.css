@@ -189,6 +189,17 @@ section {
     
    }
    @media(max-width:768px){
+    .logo{
+        display: flex;
+        position: relative;
+        right: 80px;
+    }
+    .navigation a{
+      display: flex;
+      position: relative;
+      right: 70px;
+  
+    }
     .main {
         background-position: center top;
         padding: 20px;
