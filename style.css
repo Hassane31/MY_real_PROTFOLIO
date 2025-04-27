@@ -104,9 +104,9 @@ section {
    .icons a i:hover{
     transform: translateY(-5px);
    }
+   
    #changeBackgroundBtn{
     background-color: rgb(255, 255, 255);
-    
     letter-spacing: 1px;
     border-radius:  15px;
     margin-bottom: 40px;
@@ -114,10 +114,7 @@ section {
     font-weight: 900;
     transition: 0.5s ease;
    }
-   #changeBackgroundBtn :hover{
-    background-color: blue;
-    transform: translateY(-5px);
-   }
+ 
    
 
    .title{
