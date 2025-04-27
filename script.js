@@ -6,10 +6,17 @@ const mainBackgrounds = [
 let mainIndex = 0; 
 
 function changeMainBackground() {
-    
-    document.querySelector(".main").style.backgroundImage = url('${mainBackgrounds[mainIndex]}');
-    
+    if(mainIndex == 1){
+       
+        document.querySelector("#projects").style.backgroundColor = "#000"
 
+    }
+    else {
+
+        document.querySelector("#projects").style.backgroundColor = "#060523"
+
+    }
+    document.querySelector(".main").style.backgroundImage = `url('${mainBackgrounds[mainIndex]}')`;
     mainIndex = (mainIndex + 1) % mainBackgrounds.length;
 }
 
